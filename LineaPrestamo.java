@@ -7,7 +7,7 @@ public class LineaPrestamo {
 
     public LineaPrestamo(Ejemplar ejemplar) {
         this.ejemplar = ejemplar;
-        // Establecer fecha de devolución estimada a 15 días después
+        //  fecha de devolucion estimada a 15 días despues
         Calendar calendar = Calendar.getInstance();
         calendar.add(Calendar.DAY_OF_MONTH, 15);
         this.fechaDevolucionEstimada = calendar.getTime();
